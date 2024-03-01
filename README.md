@@ -1,13 +1,8 @@
-<h1>To Do Woo</h1>
+<h1>todowoo</h1>
 How started my project on your local server?
 
 The project for study Django.
 
-<h3>Stack:</h3>
-- Python
-- SqLite
-- Redis
-- Local Developing
 All actions should be executed from the source directory of the project and only after installing all requirements.
   
 
@@ -25,14 +20,11 @@ pip install
 -r requirements.txt
 
 
-<h3>Run project dependencies, migrations, fill the database with the fixture data etc.:</h3>
+
 
 ./manage.py migrate
-./manage.py loaddata <path_to_fixture_files>
 
 
-<h3>Run Redis Server:</h3>
-redis-server
 
 
 <h3>After completing the steps follow the link -- http://127.0.0.1:8000/</h3>
@@ -44,7 +36,6 @@ The user has the ability to create a list of tasks, in the process of their exec
 The program is implemented in the Python programming language using:
 
 - Django;
-- Redis;
 - HTML;
 - CSS;
 
@@ -53,8 +44,6 @@ When the “New todo” button is clicked, the createtodo event handler invokes 
 The window contains fields for title, description, priority selection, saving and returning to the main menu.
 There is a limit on the number of characters on the field for entering the name, if the number of characters entered matches the maximum number,
 are checked using the max_length attribute. In the modal window, the user has a warning label for the maximum number of input characters.
-The project was implemented using caching, in my case "Redis", also for convenience, the tool "Django-Toolbar" was used, object-oriented programming,
-framework Django, HTML, CSS, Python, SqLite(default), TestCase. 
 
 1. - Modal window for creating a task.
 The “Save” button, if all fields are filled, calls the createtodo () function in which the markup of the task is generated with all the entered values and
@@ -112,12 +101,5 @@ After filling in the fields and upon successful authorization, we are also redir
 ![logout_9](https://github.com/IlyaKavaleu/Small-To-Do-List/assets/97099564/75b57950-277e-4e81-81cf-127a8d9afe9a)
 
 
-10. - Library tests were imposed on the project “UnitTest“.
-For example, a test for successful user registration is taken:
-Have a check:
-  - page status
-  - redirect url
-  - absence of a user
-  - user presence
-  - check by message(fail) for an error
-![tests_10 png](https://github.com/IlyaKavaleu/Small-To-Do-List/assets/97099564/986c9f62-ceff-4766-b0ba-1c4b30a53edb)
+
+
