@@ -1,6 +1,6 @@
 # Todo List Django Project
 
-This is a simple TODO list web application built using Django framework. The application allows users to create, update, and delete tasks.You need to login to create tasks.
+This is a simple TODO list web application built using Django framework. The application allows users to create, update, and delete tasks. Only registered users can access and manage tasks.
 
 ## Installation
 
