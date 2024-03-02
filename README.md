@@ -8,23 +8,21 @@ All actions should be executed from the source directory of the project and only
 
 <h3>Firstly, create and activate a new virtual environment:</h3>
 
-python3.9 -m venv ../venv
-source ../venv/bin/activate
+`cd todowoo/`
+
+`python3.9 -m venv venv`
+
+`source ./venv/bin/activate`
 
 <h3>Install packages:</h3>
 
-pip install
---upgrade pip   
+`pip install --upgrade pip`
 
-pip install
--r requirements.txt
+`pip install -r requirements.txt`
 
+`python ./manage.py migrate`
 
-
-
-./manage.py migrate
-
-
+`python ./manage.py runserver`
 
 
 <h3>After completing the steps follow the link -- http://127.0.0.1:8000/</h3>
